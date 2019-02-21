@@ -9,9 +9,7 @@ import PropTypes from 'prop-types';
  */
 export default class TodoList extends Component {
     handleItemClick(item, event) {
-        item.done = !item.done
-        this.forceUpdate()
-        console.log(item.done)
+        
     }
 
     render() {
@@ -20,7 +18,7 @@ export default class TodoList extends Component {
             {
                 items.map((item, i) => {
                     return (
-                        <TodoItem item={item} key={i} onClick={item.done ? null : this.handleItemClick.bind(this, item)}/>
+                        <TodoItem item={item} key={i} onClick={this.handleItemClick.bind(this, item)}/>
                     )
                 })
             }

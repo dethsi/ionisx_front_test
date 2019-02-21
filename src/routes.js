@@ -1,8 +1,8 @@
-import Welcome from "views/Welcome.jsx";
-import Step1 from "views/Step1.jsx";
-import Step2 from "views/Step2.jsx";
-import Step3 from "views/Step3.jsx";
-import FinalBoss from "views/FinalBoss.jsx";
+import Welcome from "./views/Welcome.jsx";
+import Step1 from "./views/Step1.jsx";
+import Step2 from "./views/Step2.jsx";
+import Step3 from "./views/Step3.jsx";
+import FinalBoss from "./views/FinalBoss.jsx";
 
 var routes = [
   {
