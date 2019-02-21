@@ -3,7 +3,7 @@
 # Welcome to Shitty React
 
 You will start the technical test front **React** for ionisx.<br/>
-From the moment you start the test you have half an hour<br/>
+From the moment you start the test you have half an hour
 to do as many exercises as possible.<br/>
 
 
@@ -11,10 +11,10 @@ to do as many exercises as possible.<br/>
 Before start you need to install all the dependencies.<br/>
 So copy and paste this command in your terminal :<br/>
 
-with **npm**
-``` cd shitty_react && npm install && npm start``` 
-with **yarn**
-``` cd shitty_react && yarn install && yarn start```
+with **npm**<br/>
+``` cd shitty_react && npm install && npm start``` <br/>
+with **yarn**<br/>
+``` cd shitty_react && yarn install && yarn start```<br/>
 
 ## For your responses
 
