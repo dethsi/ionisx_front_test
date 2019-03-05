@@ -8,18 +8,18 @@ import React, { Component } from 'react'
 
 export default class App extends Component {
     constructor() {
-        super(); 
+        super();
         this.name = 'MyComponent';
-        
+
         this.handleClick2 = this.handleClick1.bind(this);
       }
-      
+
       handleClick1() {
         alert(this.name);
       }
-      
+
       handleClick3 = () => alert(this.name);
-    
+
     render() {
         return (
           <div>
@@ -35,4 +35,8 @@ export default class App extends Component {
 
 /**
  * Your answer here
+- a function is passed in parameter so an alert will appear with the name
+- a reference of the function is passed in parameter so this not exists so this.name = undefined
+- this.handleClick2 = this.handleClick1.bind(this)  sothis.name is know
+- handleCLick3 is arrow functon so he knows this from level above
  */
