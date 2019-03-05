@@ -30,6 +30,6 @@ Have fun and no pressure.
 
 You are going to create a new branch for save your test with this format:
 
-```firstname_lastname_dd_mm_yy
+```firstname_lastname_dd_mm_yy```
 
 
