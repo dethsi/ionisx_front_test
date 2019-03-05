@@ -27,3 +27,9 @@ Put your answers in this files.<br/>
 Now that you are ready do not forget one thing:<br/>
 The dev is a passion business.<br/>
 Have fun and no pressure.
+
+You are going to create a new branch for save your test with this format:
+
+```firstname_lastname_dd_mm_yy
+
+
